@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Matts_Final_Project/static/css/main.f3b7a5ee.css",
+    "main.js": "/Matts_Final_Project/static/js/main.a5420edf.js",
+    "static/js/787.db702909.chunk.js": "/Matts_Final_Project/static/js/787.db702909.chunk.js",
+    "static/media/product-river.mp4": "/Matts_Final_Project/static/media/product-river.29f407a1e8975e23accb.mp4",
+    "static/media/review-water.mp4": "/Matts_Final_Project/static/media/review-water.bec1711b339218c5a531.mp4",
+    "static/media/home-water.mp4": "/Matts_Final_Project/static/media/home-water.1f200c9a0733828a10b7.mp4",
+    "static/media/9.jpg": "/Matts_Final_Project/static/media/9.ac74151c96031a89ce80.jpg",
+    "static/media/2.jpg": "/Matts_Final_Project/static/media/2.23da2245bb1a77b623d7.jpg",
+    "static/media/7.jpg": "/Matts_Final_Project/static/media/7.cdc5e4f71716491b3616.jpg",
+    "static/media/4.jpg": "/Matts_Final_Project/static/media/4.ebdfb113901a39801742.jpg",
+    "static/media/1.png": "/Matts_Final_Project/static/media/1.cea6abf306c66432e8fd.png",
+    "static/media/3.jpg": "/Matts_Final_Project/static/media/3.807a912a2e89e85bba5c.jpg",
+    "static/media/mountainwater.png": "/Matts_Final_Project/static/media/mountainwater.9a1a6983a5a624ed2d85.png",
+    "static/media/5.jpeg": "/Matts_Final_Project/static/media/5.c456bdc00d4e3428a690.jpeg",
+    "static/media/8.jpeg": "/Matts_Final_Project/static/media/8.16fca55f7e5f95401941.jpeg",
+    "static/media/6.jpg": "/Matts_Final_Project/static/media/6.a0861aad326c3c62ae98.jpg",
+    "static/media/darcy.jpg": "/Matts_Final_Project/static/media/darcy.62b422ddbf465565e877.jpg",
+    "static/media/reviews_icon.svg": "/Matts_Final_Project/static/media/reviews_icon.742bd397afa0a52e98a54ceb137cd54a.svg",
+    "index.html": "/Matts_Final_Project/index.html",
+    "main.f3b7a5ee.css.map": "/Matts_Final_Project/static/css/main.f3b7a5ee.css.map",
+    "main.a5420edf.js.map": "/Matts_Final_Project/static/js/main.a5420edf.js.map",
+    "787.db702909.chunk.js.map": "/Matts_Final_Project/static/js/787.db702909.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3b7a5ee.css",
+    "static/js/main.a5420edf.js"
+  ]
+}
