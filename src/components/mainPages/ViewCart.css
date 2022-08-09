@@ -1,0 +1,71 @@
+#root {
+  background: linear-gradient(
+    -15deg,
+    #529dee,
+    #3cb9e7,
+    #0006c1,
+    #12b891,
+    #5f07c4
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width: 100vw;
+  height: auto;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.viewCartPage {
+  position: relative;
+  color: white;
+  background: rgba(0, 0, 0, 0.548);
+  font-size: 16px;
+  padding: 5%;
+}
+
+.viewCartPage {
+  border: solid 1px azure;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#productGrid {
+  padding: 5px;
+  border: solid 1px azure;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+
+#CartProductField {
+  border: 1px solid azure;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#CartButton {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button.btn.btn-primary.ButtonText {
+  font-size: 24px;
+}
+
+input#cartProductQtyField {
+  width: 2em;
+  color: black;
+}

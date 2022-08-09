@@ -1,0 +1,88 @@
+#currentNav {
+  color: rgb(255, 255, 255) !important;
+}
+
+a.nav-link,
+a.navbar-brand {
+  color: white !important;
+}
+
+#myNav {
+  font-size: 20px;
+  background-color: rgba(53, 53, 53, 0.45) !important;
+  backdrop-filter: blur(3px) !important;
+}
+
+input[type="text"],
+#submitReviewButton {
+  color: black !important;
+}
+
+#siteLogo {
+  width: 10%;
+}
+
+#siteLogoTitle {
+  font-size: 24px;
+}
+
+img#siteLogo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button.navbar-toggler.collapsed {
+  align-items: center;
+  justify-content: center;
+  height: 75%;
+  width: 100%;
+}
+
+button.navbar-toggler {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 75%;
+  width: 100%;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  color: azure;
+  background-color: hsl(210, 11%, 15%, 0.25);
+}
+
+.icon {
+  padding: 5px;
+  display: inline-block;
+  font-size: 30px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.bi-linkedin {
+  color: #0077b5;
+}
+
+.bi-github {
+  color: #4078c0;
+  animation-delay: 2s;
+}
+
+.bi-envelope {
+  color: #ea4335;
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
