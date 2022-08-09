@@ -1,21 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import { Button, Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 
 import { productsAPI } from "../rest/productAPI";
 
 // import "./ViewCart.css";
-
-import img1 from "../images/product_images/1.png";
-import img2 from "../images/product_images/2.jpg";
-import img3 from "../images/product_images/3.jpg";
-import img4 from "../images/product_images/4.jpg";
-import img5 from "../images/product_images/5.jpeg";
-import img6 from "../images/product_images/6.jpg";
-import img7 from "../images/product_images/7.jpg";
-import img8 from "../images/product_images/8.jpeg";
-import img9 from "../images/product_images/9.jpg";
 
 function AddCartProducts() {
   const [productData, setAPIData] = useState([]);

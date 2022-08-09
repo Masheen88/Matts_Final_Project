@@ -6,16 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Container,
-  NavItem,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
 
 import "./navbar.css";
 
@@ -58,49 +49,49 @@ class Navibar extends React.Component {
                         About Us
                       </Nav.Link>
                       <NavDropdown title="Site Content" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="./view-products">
+                        <NavDropdown.Item href="/view-products">
                           View Products
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="./reviews">
+                        <NavDropdown.Item href="/reviews">
                           Reviews
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="./play-a-game" disabled>
+                        <NavDropdown.Item href="/play-a-game" disabled>
                           Play A Game
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Nav>
                     <Button variant="outline-primary">
                       {" "}
-                      <Nav.Link href="./cart">View Cart</Nav.Link>
+                      <Nav.Link href="/cart">View Cart</Nav.Link>
                     </Button>
                   </Navbar.Collapse>
                 </Container>
               </Navbar>
               <br />
               <Routes>
-                <Route exact path="./homePage" element={<HomePage />}></Route>
+                <Route exact path="/homePage" element={<Navigate to="/" />} />
+                <Route exact path="/" element={<HomePage />} />
+                <Route exact path="/view-products" element={<ViewProducts />} />
                 <Route
                   exact
-                  path="./view-products"
-                  element={<ViewProducts />}
-                ></Route>
-                <Route exact path="./reviews" element={<Reviews />}></Route>
-                <Route exact path="./cart" element={<ViewCart />}></Route>
+                  path="Matts_Final_Project/reviews/"
+                  element={<Reviews />}
+                />
                 <Route
                   exact
-                  path="./"
-                  element={<Navigate to="./homePage" />}
-                ></Route>
+                  path="Matts_Final_Project/cart/"
+                  element={<ViewCart />}
+                />
                 <Route
                   exact
-                  path="./matts-final-project"
-                  element={<Navigate to="./homePage" />}
-                ></Route>
+                  path="Matts_Final_Project/matts-final-project/"
+                  element={<Navigate to="/homePage" />}
+                />
                 <Route
                   exact
-                  path="./kayak-1"
+                  path="Matts_Final_Project/kayak-1/"
                   element={<ProductDetails />}
-                ></Route>
+                />
               </Routes>
             </Router>
           </div>

@@ -40,12 +40,11 @@ class Footer extends React.Component {
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                       <Nav.Link href="/homePage">Home</Nav.Link>
-                      <Nav.Link href="/about-us">About Us</Nav.Link>
-                      <Nav.Link href="/about-us">View Products</Nav.Link>
-                      <Nav.Link href="/reviews">Reviews</Nav.Link>
-                      <Nav.Link href="/play-a-game" disabled>
-                        Play A Game
+                      <Nav.Link href="/about-us" disabled>
+                        About Us
                       </Nav.Link>
+                      <Nav.Link href="/view-products">View Products</Nav.Link>
+                      <Nav.Link href="/reviews">Reviews</Nav.Link>
                       <Nav.Link href="/cart">View Cart</Nav.Link>
                     </Nav>
                   </Navbar.Collapse>

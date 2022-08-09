@@ -6,7 +6,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import "./ViewProducts.css";
 
-import ProductsButton from "../Sub-Components/productsButton";
 import ViewProductButton from "../Sub-Components/viewProductButton";
 
 //Page Background

@@ -8,14 +8,6 @@ import { productsAPI } from "../rest/productAPI";
 import "./ViewCart.css";
 
 import img1 from "../images/product_images/1.png";
-import img2 from "../images/product_images/2.jpg";
-import img3 from "../images/product_images/3.jpg";
-import img4 from "../images/product_images/4.jpg";
-import img5 from "../images/product_images/5.jpeg";
-import img6 from "../images/product_images/6.jpg";
-import img7 from "../images/product_images/7.jpg";
-import img8 from "../images/product_images/8.jpeg";
-import img9 from "../images/product_images/9.jpg";
 
 import AddCartProducts from "../Sub-Components/CartCalculation";
 
@@ -28,14 +20,6 @@ function ViewCart() {
     event.preventDefault();
     const deleteButtonId = event.target.value;
     productsAPI.apiDelete(deleteButtonId).then((response) => {
-      setAPIData([response]);
-    });
-  };
-
-  const deleteAllProducts = async (event) => {
-    event.preventDefault();
-    const deleteButtonId = event.target.value;
-    productsAPI.apiDeleteAll().then((response) => {
       setAPIData([response]);
     });
   };
