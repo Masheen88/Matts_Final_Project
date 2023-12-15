@@ -39,13 +39,13 @@ class Footer extends React.Component {
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                      <Nav.Link href="/homePage">Home</Nav.Link>
-                      <Nav.Link href="/about-us" disabled>
+                      <Nav.Link to="/homePage">Home</Nav.Link>
+                      <Nav.Link to="/about-us" disabled>
                         About Us
                       </Nav.Link>
-                      <Nav.Link href="/view-products">View Products</Nav.Link>
-                      <Nav.Link href="/reviews">Reviews</Nav.Link>
-                      <Nav.Link href="/cart">View Cart</Nav.Link>
+                      <Nav.Link to="/view-products">View Products</Nav.Link>
+                      <Nav.Link to="/reviews">Reviews</Nav.Link>
+                      <Nav.Link to="/cart">View Cart</Nav.Link>
                     </Nav>
                   </Navbar.Collapse>
                 </Container>
